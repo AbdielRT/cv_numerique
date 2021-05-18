@@ -1,0 +1,21 @@
+body {
+  height: 100vh;
+  background: #1f426e;
+  color: white;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+}
+input:invalid{
+  border: solid 2px red;
+}
+input {
+  text-align: start;
+}
+.mensaje {
+  width: 276px;
+  height: 80px;
+}
+.f-title {
+  font-style: Arial;
+}
