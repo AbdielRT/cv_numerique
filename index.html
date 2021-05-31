@@ -1,49 +1,92 @@
 <!DOCTYPE html>
 <html>
   <head>  
-    <title> Abdiel's personal page</title>
+    <title>Abdiel RT</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/style.css"/>
   </head>
 
   <body>
-    <h1> Abdiel Ramírez Torres </h1>
-    
-    <h2 class="f-title"> Envoyez un message </h2> 
-    <br />
+    <nav id="navbar">
+      <div class="container">
+        <ul>
+          <li><a href="#">Abdiel RT</a></li>
+          <li><a href="#">Bienvenue</a></li>
+          <li><a href="#">Projets</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Langue</a></li>
+        </ul>
+      </div>
+    </nav>
 
-    <form action="contact_form.php" method="post">
-      <input 
-        type="text" 
-        id="surname" 
-        placeholder="Nom" 
-        name="surname" 
-      />
-      <input 
-        type='text' 
-        id='name' 
-        placeholder="Prénom" 
-        name="name" 
-        required 
-      />
-      <br/>
-      <input 
-        type='email' 
-        id='email' 
-        placeholder="email" 
-        required style="width: 275px;"
-      /> <br/>
-      <input 
-        type="text" 
-        id="message" 
-        placeholder="Message (max. 500 caractères)" 
-        required 
-        class="mensaje" 
-        maxlength="500" 
-      /> <br/>
+    <section id="banner">
+      <div></div>
+    </section>
+    <div class="box-1">
+      <h1> Abdiel Ramírez Torres </h1>
+    </div>
+    
+    <div class="heading">
+      <h3> Formation</h3>
+      <ul>
+        <li> </li>
+        <li> </li>
+        <li> </li>
+      </ul>
+    </div>
+
+    <div class="heading">
+      <h3> Competences</h3>
+      <ul>
+        <li>a</li>
+        <li>b</li>
+        <li>c</li>
+      </ul>
+    </div>
+
+ 
+
+    <form action="contact_form.php" method="post" class="my-form">
+      <h2 class="f-title"> Envoyez un message </h2> 
+      <div class="form-group fgroup1">
+        <input 
+          type="text" 
+          id="surname" 
+          placeholder="Nom" 
+          name="surname" 
+        />
+      </div>
+      <div class="form-group fgroup1">
+        <input 
+          type='text' 
+          id='name' 
+          placeholder="Prénom" 
+          name="name" 
+          required 
+        />
+      </div>
+
+      <div class="form-group">
+        <input 
+          type='email' 
+          id='email' 
+          placeholder="email" 
+          required
+        /> 
+      </div>
+
+      <div class="form-group">
+        <textarea 
+          id="message" 
+          placeholder="Message (max. 500 caractères)" 
+          required 
+          maxlength="500"> 
+        </textarea> 
+    </div>
       <input type="submit" value="Envoyer" />
 
       
     </form>
+    <div style="margin-top: 900px;"></div>
   </body>
 </html>
