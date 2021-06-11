@@ -1,5 +1,5 @@
 # cv_numerique
-Abdiel Ramirez 17.5.2021
+Abdiel Ramirez 11.6.2021
 
 
-Premier essay de creation CV numerique en utilisant HTML CSS JS
+Web version Resumé using grid display to make it responsive to extra large, large and small screens.
