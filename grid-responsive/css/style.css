@@ -146,6 +146,7 @@ body {
 	height: 10px;
 	border-radius: 3px;
 	justify-content: left;
+	z-index: -1;
 }
 #progress_html {
 	background: rgba(238, 90, 37, .7) ;
