@@ -72,7 +72,7 @@ body {
   padding-right: 20px;
 }
 
-#navbar a {
+a {
   text-decoration: none;
   color: #444;
 }
@@ -369,13 +369,7 @@ form * {
 
 /* Extra large screens */
 @media (min-width: 1200px) {
-  #slide1 {
-    background-size: 100%;
-  }
-  #slide2 {
-    background-size: 100%;
-  }
-  #slide3 {
+  .slide {
     background-size: 100%;
   }
   .coord-1 {
@@ -419,6 +413,11 @@ form * {
   #showcase {
     grid-row: 3;
     grid-column: span 12;
+    height: 250px;
+  }
+
+  .showcase-title h1 {
+    font-size: 30px;
   }
 
   .competences {
@@ -451,6 +450,9 @@ form * {
     grid-row: 9;
     grid-column: span 12;
   }
+  .slide {
+    background-size: cover !important;
+  }
   .contact {
     grid-row: 10;
     grid-column: span 12;
@@ -476,7 +478,7 @@ form * {
     grid-column: span 12;
   }
   .coord-1 li {
-    display: inline;
+    display: flex;
     padding: 5px 10px;
   }
   .footer {
