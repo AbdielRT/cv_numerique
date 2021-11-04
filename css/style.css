@@ -142,7 +142,7 @@ a {
 }
 #progress_html {
   background: rgba(238, 90, 37, 0.7);
-  width: 60%;
+  width: 80%;
   height: 10px;
   border-radius: 3px;
 }
@@ -157,7 +157,7 @@ a {
 
 #progress_css {
   background: rgba(33, 83, 158, 0.7);
-  width: 40%;
+  width: 65%;
   height: 10px;
   border-radius: 3px;
 }
@@ -172,7 +172,7 @@ a {
 
 #progress_js {
   background: rgba(250, 210, 40, 0.7);
-  width: 50%;
+  width: 70%;
   height: 10px;
   border-radius: 3px;
 }
@@ -299,11 +299,11 @@ a {
   background: #333;
   color: #fff;
 }
-.coord-1 {
+#coord-1 {
   grid-row: 6;
   grid-column: 2/4;
 }
-.coord-2 {
+#coord-2 {
   display: grid;
   grid-row: 6;
   grid-column: 5/11;
@@ -313,7 +313,7 @@ a {
   text-transform: uppercase;
 }
 
-.coord-1 li {
+#coord-1 li {
   list-style: none;
   padding: 5px;
 }
@@ -328,16 +328,16 @@ form {
     ". . button";
 }
 
-.coord-2 input[type="text"] {
+#coord-2 input[type="text"] {
   grid-area: nom;
 }
-.coord-2 input[type="email"] {
+#coord-2 input[type="email"] {
   grid-area: email;
 }
-.coord-2 textarea {
+#coord-2 textarea {
   grid-area: message;
 }
-.coord-2 input[type="submit"] {
+#coord-2 input[type="submit"] {
   grid-area: button;
   background: var(--primary-color);
   color: #fff;
@@ -372,12 +372,10 @@ form * {
   .slide {
     background-size: 100%;
   }
-  .coord-1 {
-    /*grid-row: 6;*/
+  #coord-1 {
     grid-column: 2/5;
   }
-  .coord-2 {
-    /*grid-row: 6;*/
+  #coord-2 {
     grid-column: 5/12;
   }
 }
@@ -440,11 +438,11 @@ form * {
   }
   .ExpProf {
     grid-row: 7;
-    grid-column: 3/11;
+    grid-column: 2/12;
   }
   .formation {
     grid-row: 8;
-    grid-column: 3/11;
+    grid-column: 2/12;
   }
   .benevolat {
     grid-row: 9;
@@ -452,6 +450,9 @@ form * {
   }
   .slide {
     background-size: cover !important;
+  }
+  .slide-txt {
+    width: 70%;
   }
   .contact {
     grid-row: 10;
@@ -469,17 +470,21 @@ form * {
       ". message ."
       ". button .";
   }
-  .coord-2 {
+  div.coord h4 {
+    margin-left: 10px;
+  }
+  #coord-2 {
     grid-row: 10;
     grid-column: 3/11;
   }
-  .coord-1 {
+  #coord-1 {
     grid-row: 11;
     grid-column: span 12;
   }
-  .coord-1 li {
+  #coord-1 li {
     display: flex;
-    padding: 5px 10px;
+    justify-content: center;
+    padding: 5px 0px;
   }
   .footer {
     grid-row: 12;
