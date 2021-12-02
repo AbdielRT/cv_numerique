@@ -299,6 +299,9 @@ a {
   background: #333;
   color: #fff;
 }
+a#linkedin {
+  color: #fff;
+}
 #coord-1 {
   grid-row: 6;
   grid-column: 2/4;
