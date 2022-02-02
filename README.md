@@ -1,8 +1,8 @@
-# Mon CV au format Web
+# Mon Portfolio
 
 Abdiel Ramirez 11.6.2021
 
-## Web version Resumé
+## From originally a web version Resumé
 
 Uses grid display to make it responsive to extra large, large and small screens with media queries.
 
