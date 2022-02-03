@@ -138,7 +138,7 @@ ul {
 .progress_bar {
   position: relative;
   border: solid 1px #666;
-  width: 80%;
+  width: 65%;
   height: 10px;
   border-radius: 3px;
   justify-content: left;
@@ -191,7 +191,7 @@ ul {
 
 #progress_php {
   background: rgba(105, 110, 170, 0.7);
-  width: 65%;
+  width: 55%;
   height: 10px;
   border-radius: 3px;
 }
