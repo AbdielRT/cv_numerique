@@ -181,11 +181,66 @@ ul {
   border-radius: 3px;
 }
 #progress_js i {
+  background-color: rgb(240, 240, 240);
   color: rgba(250, 210, 40, 1);
   position: relative;
-  top: -7px;
+  top: -12px;
+  left: 95%;
+  font-size: 35px;
+}
+
+#progress_php {
+  background: rgba(105, 110, 170, 0.7);
+  width: 65%;
+  height: 10px;
+  border-radius: 3px;
+}
+#progress_php i {
+  background-color: rgb(240, 240, 240);
+  color: rgba(105, 110, 170, 1);
+  border-radius: 60%;
+  position: relative;
+  top: -15px;
   left: 95%;
   font-size: 40px;
+  font-weight: 550;
+}
+
+#progress_py {
+  background: linear-gradient(
+    to right,
+    rgba(50, 100, 150, 1),
+    rgba(255, 215, 66, 1)
+  );
+  width: 65%;
+  height: 10px;
+  border-radius: 3px;
+}
+#progress_py i {
+  color: rgba(50, 100, 150, 1);
+  border-radius: 60%;
+  position: relative;
+  top: -15px;
+  left: 95%;
+  font-size: 40px;
+  font-weight: 550;
+}
+
+#progress_sql {
+  background: rgba(225, 130, 0, 0.7);
+  width: 75%;
+  height: 10px;
+  border-radius: 3px;
+}
+#progress_sql i {
+  background-color: #fff;
+  color: rgba(225, 130, 0);
+  border-radius: 60%;
+  position: relative;
+  top: -10px;
+  left: 95%;
+  font-size: 30px;
+  /* font-weight: 550; */
 }
 
 /*------- BENEVOLATS EN CAROUSEL -------*/
