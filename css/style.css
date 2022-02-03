@@ -1,6 +1,6 @@
 :root {
-  --primary-color: #4e88ad;
-  --secondary-color: #4e59ad;
+  --primary-color: rgb(78, 136, 173);
+  --secondary-color: rgb(78, 89, 173);
 }
 
 body {
@@ -241,7 +241,6 @@ ul {
   top: -10px;
   left: 95%;
   font-size: 30px;
-  /* font-weight: 550; */
 }
 
 /*------- BENEVOLATS EN CAROUSEL -------*/
@@ -444,6 +443,7 @@ a#goTop {
 }
 a#goTop:hover {
   background-color: var(--secondary-color);
+  box-shadow: 1px 1px 15px var(--primary-color);
 }
 
 /* ----------- MEDIA QUERIES --------- */

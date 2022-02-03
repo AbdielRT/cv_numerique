@@ -1,4 +1,5 @@
 const navbar = document.querySelector(".main-header");
+const goTop = document.getElementById("goTop");
 
 window.onscroll = function () {
   if (window.pageYOffset >= 2) {
@@ -7,6 +8,11 @@ window.onscroll = function () {
   } else {
     navbar.classList.remove("fixed-bar");
     navbar.style.backgroundColor = `rgb(240, 240, 240)`;
+  }
+  if (document.documentElement.scrollTop > 20 || document.body.scrollTop > 20) {
+    goTop.style.display = "block";
+  } else {
+    goTop.style.display = "none";
   }
 };
 
@@ -61,15 +67,3 @@ function showDiapo(n) {
   // display the slide for the corresponding active dot
   dots[slideIndex].className += " active";
 }
-
-// Go Top button
-
-goTop = document.getElementById("goTop");
-
-window.onscroll = function () {
-  if (document.documentElement.scrollTop > 20 || document.body.scrollTop > 20) {
-    goTop.style.display = "block";
-  } else {
-    goTop.style.display = "none";
-  }
-};
