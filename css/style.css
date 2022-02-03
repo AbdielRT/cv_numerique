@@ -373,11 +373,13 @@ a#linkedin {
 
 .contact h4 {
   text-transform: uppercase;
+  height: 15%;
 }
 
-#coord-1 li {
+#coord-2 li {
   list-style: none;
   padding: 5px;
+  margin-bottom: 5%;
 }
 
 /* CONTACT FORM */
@@ -498,6 +500,9 @@ form * {
     grid-row: 6;
     grid-column: span 12;
   }
+  .progress_bar {
+    width: 90%;
+  }
   .ExpProf {
     grid-row: 7;
     grid-column: 2/12;
@@ -522,7 +527,7 @@ form * {
     justify-content: center;
   }
 
-  form {
+  /* form {
     display: grid;
     width: 100vw;
     grid-template-columns: auto auto auto;
@@ -531,7 +536,7 @@ form * {
       ". email ."
       ". message ."
       ". button .";
-  }
+  } */
   div.coord h4 {
     margin-left: 10px;
   }
@@ -542,6 +547,9 @@ form * {
   #coord-1 {
     grid-row: 11;
     grid-column: span 12;
+  }
+  iframe {
+    width: 100vw;
   }
   #coord-1 li {
     display: flex;
