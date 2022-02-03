@@ -243,7 +243,7 @@ ul {
   font-size: 30px;
 }
 
-/*------- BENEVOLATS EN CAROUSEL -------*/
+/*------- Carrousel -------*/
 .benevolat {
   position: relative;
   justify-content: center;
@@ -382,37 +382,6 @@ a#linkedin {
   margin-bottom: 5%;
 }
 
-/* CONTACT FORM */
-form {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-template-areas:
-    "nom message message"
-    "email message message"
-    ". . button";
-}
-
-#coord-2 input[type="text"] {
-  grid-area: nom;
-}
-#coord-2 input[type="email"] {
-  grid-area: email;
-}
-#coord-2 textarea {
-  grid-area: message;
-}
-#coord-2 input[type="submit"] {
-  grid-area: button;
-  background: var(--primary-color);
-  color: #fff;
-  border: 0;
-}
-
-form * {
-  padding: 5px;
-  margin: 5px 10px;
-}
-
 /* Footer */
 .footer {
   grid-row: 7;
@@ -544,16 +513,6 @@ a#goTop:hover {
     justify-content: center;
   }
 
-  /* form {
-    display: grid;
-    width: 100vw;
-    grid-template-columns: auto auto auto;
-    grid-template-areas:
-      ". nom ."
-      ". email ."
-      ". message ."
-      ". button .";
-  } */
   div.coord h4 {
     margin-left: 10px;
   }
