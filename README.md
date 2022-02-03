@@ -2,7 +2,7 @@
 
 Abdiel Ramirez 11.6.2021
 
-## From originally a web version Resumé
+## From originally a web version Résumé
 
 Uses grid display to make it responsive to extra large, large and small screens with media queries.
 
